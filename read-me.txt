@@ -1,0 +1,44 @@
+// // card-description.js
+// class CardDescription extends HTMLElement {
+//     constructor() {
+//       super();
+//       const template = document.createElement('template');
+//       template.innerHTML = '<p>This is a simple card description.</p>';
+//       this.attachShadow({ mode: 'open' }).appendChild(template.content.cloneNode(true));
+//     }
+//   }
+  
+//   customElements.define('card-description', CardDescription);
+//   export { CardDescription }; // Export the class
+
+
+//   class CardDescription extends HTMLElement {
+//     constructor() {
+//       super();
+//       const shadow = this.attachShadow({ mode: 'open' });
+//       const paragraph = document.createElement('p');
+//       paragraph.textContent = 'This is a simple card description.';
+//       shadow.appendChild(paragraph);
+//     }
+//   }
+  
+//   customElements.define('card-description', CardDescription);
+  
+//   export { CardDescription };
+  
+
+
+
+
+
+// class CardDescription extends HTMLElement {
+//     constructor() {
+//       super();
+//       this.attachShadow({ mode: 'open' }).innerHTML = '<p>This is a simple card description.</p>';
+//     }
+//   }
+  
+//   customElements.define('card-description', CardDescription);
+  
+//   export { CardDescription };
+  
